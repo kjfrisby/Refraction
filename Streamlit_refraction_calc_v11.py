@@ -63,7 +63,7 @@ with header:
     st.image(kelly_frisby, width=200)
     #st.image(image, caption='Light ray refraction (By ajizai - https://commons.wikimedia.org/w/index.php?curid=30455241)', output_format="PNG")
     #st.markdown("<h4 style='text-align: center; color: #444444;'>I created the Light Refraction Calculator, using the Python programming language and Streamlit, to help people study the physics and mathematics of light refraction</h4>", unsafe_allow_html=True)
-    colx, coly, colz = st.columns([4, 5, 4])
+    #colx, coly, colz = st.columns([4, 5, 4])
     #image = Image.open('c:/Users/Kelly/kelly_frisby_physics.jpg')
     #coly.image(image, output_format="JPG", use_column_width=True)
     st.markdown('"_I_ _created_ _the_ _Light_ _Refraction_ _Calculator_ _using_ _the_ _Python_ _programming_ _language_ _and_ _Streamlit_ _to_ _help_ _people_ _study_ _the_ _physics_ _and_ _mathematics_ _of_ _light_ _refraction_."')
