@@ -49,11 +49,11 @@ with header:
     st.title('Welcome to the Light Refraction Calculator')
     # st.title('Welcome to the Refraction of Light Calculator')
     
-    htp = "kelly_frisby_physics.jpg"
+    htp = "Refraction_light.png"
     st.image(htp, caption= 'logo', width=350)
     #image = Image.open(refraction_image)
     
-    kelly_frisby = "https://github.com/kjfrisby/Refraction/blob/main/Refraction_light.svg.png"
+    kelly_frisby = "kelly_frisby_physics.jpg"
     st.image(kelly_frisby, caption= 'logo', width=350)
     #st.image(image, caption='Light ray refraction (By ajizai - https://commons.wikimedia.org/w/index.php?curid=30455241)', output_format="PNG")
        
@@ -291,11 +291,11 @@ with refraction_boundaries:
     st.header('Understanding the Physics of Light Refraction')
     st.write('')
     st.write('')
-    #image = Image.open("c:/Users/Kelly/refraction light multiple.png")    
+    #image = Image.open("refraction light multiple.png")    
                                                       #image from https://xaktly.com/Refraction.html
-    #col1, col2, col3 = st.columns([4, 5, 4])
-    #col2.image(image, caption='Multiple Substance Refraction of Light', output_format="PNG", use_column_width=True)             #image from https://xaktly.com/Refraction.html
-    #st.image(image, caption='Multiple Substance Refraction of Light', output_format="PNG")
+    col1, col2, col3 = st.columns([4, 5, 4])
+    col2.image(image, caption='Multiple Substance Refraction of Light', output_format="PNG", use_column_width=True)             #image from https://xaktly.com/Refraction.html
+    st.image(image, caption='Multiple Substance Refraction of Light', output_format="PNG")
     st.write('')
     st.write('')  
     
