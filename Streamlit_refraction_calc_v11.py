@@ -49,8 +49,8 @@ with header:
     st.title('Welcome to the Light Refraction Calculator')
     # st.title('Welcome to the Refraction of Light Calculator')
     
-    refraction_image = "https://github.com/kjfrisby/Refraction/blob/main/Refraction_light.png"
-    st.image(refraction_image, caption= 'logo', width=350)
+    htp = "https://github.com/kjfrisby/Refraction/blob/main/Refraction_light.png"
+    st.image(htp, caption= 'logo', width=350)
     #image = Image.open(refraction_image)
     
     kelly_frisby = "https://github.com/kjfrisby/Refraction/blob/main/kelly_frisby_physics.jpg"
