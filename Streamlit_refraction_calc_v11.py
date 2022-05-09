@@ -53,10 +53,7 @@ with header:
     st.image(htp, caption= 'logo', width=800)
     #image = Image.open(refraction_image)
     
-    kelly_frisby = "kelly_frisby_physics.jpg"
-    st.image(kelly_frisby, caption= 'logo', width=200)
-    #st.image(image, caption='Light ray refraction (By ajizai - https://commons.wikimedia.org/w/index.php?curid=30455241)', output_format="PNG")
-       
+         
     # st.text('')
     
     st.markdown("Introducing the Refraction of Light Calculator that will help you calculate the refraction angles as light passes through multiple substances. It uses [Snell's law](https://en.wikipedia.org/wiki/Snell%27s_law) to make the calculations and has been developed to help you understand optics and the wave nature of light better.", unsafe_allow_html=True)
