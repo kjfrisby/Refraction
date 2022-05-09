@@ -295,7 +295,7 @@ with refraction_boundaries:
                                                       #image from https://xaktly.com/Refraction.html
     col1, col2, col3 = st.columns([4, 5, 4])
     col2.image(image, caption='Multiple Substance Refraction of Light', output_format="PNG", use_column_width=True)             #image from https://xaktly.com/Refraction.html
-    st.image(image, caption='Multiple Substance Refraction of Light', output_format="PNG")
+    #st.image(image, caption='Multiple Substance Refraction of Light', output_format="PNG")
     st.write('')
     st.write('')  
     
