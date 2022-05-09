@@ -50,11 +50,11 @@ with header:
     # st.title('Welcome to the Refraction of Light Calculator')
     
     htp = "Refraction_light.png"
-    st.image(htp, caption= 'logo', width=350)
+    st.image(htp, caption= 'logo', width=800)
     #image = Image.open(refraction_image)
     
     kelly_frisby = "kelly_frisby_physics.jpg"
-    st.image(kelly_frisby, caption= 'logo', width=350)
+    st.image(kelly_frisby, caption= 'logo', width=200)
     #st.image(image, caption='Light ray refraction (By ajizai - https://commons.wikimedia.org/w/index.php?curid=30455241)', output_format="PNG")
        
     # st.text('')
