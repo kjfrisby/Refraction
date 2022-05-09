@@ -62,6 +62,9 @@ with header:
     st.markdown("Introducing the Refraction of Light Calculator that will help you calculate the refraction angles as light passes through multiple substances. It uses [Snell's law](https://en.wikipedia.org/wiki/Snell%27s_law) to make the calculations and has been developed to help you understand optics and the wave nature of light better.", unsafe_allow_html=True)
     st.markdown("Simply select the substances through which a ray of light is passing, and let the calculator do the rest.")
     st.write('  ')
+    kelly_frisby = "kelly_frisby_physics.jpg"
+    st.image(kelly_frisby, caption= 'logo', width=200)
+    #st.image(image, caption='Light ray refraction (By ajizai - https://commons.wikimedia.org/w/index.php?curid=30455241)', output_format="PNG")
     #st.markdown("<h4 style='text-align: center; color: #444444;'>I created the Light Refraction Calculator, using the Python programming language and Streamlit, to help people study the physics and mathematics of light refraction</h4>", unsafe_allow_html=True)
     colx, coly, colz = st.columns([4, 5, 4])
     #image = Image.open('c:/Users/Kelly/kelly_frisby_physics.jpg')
