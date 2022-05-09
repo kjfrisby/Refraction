@@ -53,7 +53,7 @@ with header:
     st.image(htp, caption= 'logo', width=350)
     #image = Image.open(refraction_image)
     
-    kelly_frisby = "kfrisby/Refraction/kelly_frisby_physics.jpg"
+    kelly_frisby = "https://github.com/kjfrisby/Refraction/blob/main/Refraction_light.svg.png"
     st.image(kelly_frisby, caption= 'logo', width=350)
     #st.image(image, caption='Light ray refraction (By ajizai - https://commons.wikimedia.org/w/index.php?curid=30455241)', output_format="PNG")
        
