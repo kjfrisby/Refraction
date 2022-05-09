@@ -50,7 +50,8 @@ with header:
     # st.title('Welcome to the Refraction of Light Calculator')
     
     refraction_image = "https://github.com/kjfrisby/Refraction/blob/main/Refraction_light.png"
-    image = Image.open(refraction_image)
+    st.image(refraction_image, caption= 'logo', width=350)
+    #image = Image.open(refraction_image)
 
     st.image(image, caption='Light ray refraction (By ajizai - https://commons.wikimedia.org/w/index.php?curid=30455241)', output_format="PNG")
        
