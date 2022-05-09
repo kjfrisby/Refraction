@@ -50,7 +50,7 @@ with header:
     # st.title('Welcome to the Refraction of Light Calculator')
     
     htp = "Refraction_light.png"
-    st.image(htp, caption= 'logo', width=800)
+    st.image(htp, caption= 'logo', width=400)
     #image = Image.open(refraction_image)
     
          
