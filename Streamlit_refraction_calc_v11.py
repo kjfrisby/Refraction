@@ -49,7 +49,7 @@ with header:
     st.title('Welcome to the Light Refraction Calculator')
     # st.title('Welcome to the Refraction of Light Calculator')
     
-    htp = "https://github.com/kjfrisby/Refraction/blob/main/Refraction_light.png"
+    htp = "https://github.com/kjfrisby/Refraction/blob/main/Refraction_light.svg.png"
     st.image(htp, caption= 'logo', width=350)
     #image = Image.open(refraction_image)
     
